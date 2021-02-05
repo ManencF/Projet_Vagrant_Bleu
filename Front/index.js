@@ -45,7 +45,7 @@ function newElement() {
   }
 
   if (inputValueTitle === '') {
-    alert("Vous n'avez rien écrit");
+    alert("Vous devez obligatoirement renseigner un titre");
   } 
   else {
     document.getElementById("myUL").appendChild(liglobal);
@@ -63,7 +63,6 @@ function newElement() {
     close[i].onclick = function() {
       var div = this.parentElement;
       div.style.display = "none";
-       alert("Vous n'avez rien écrit");
     }
   }
 }
