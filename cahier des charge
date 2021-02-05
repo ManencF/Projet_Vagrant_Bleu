@@ -1,0 +1,25 @@
+#### ajouter
+
+un titre OK
+une description OK
+
+Titre obligatoire mais pas description OK
+
+Si pas de titre : pas d'add ( popup) OK
+
+
+###  modifier
+
+bouton sur la ligne : 
+ - modifier titre
+ - modifier description 
+
+message modif réussi
+
+
+#### supprimer
+
+la ligne OK
+
+suppresion reussi ! OK
+
