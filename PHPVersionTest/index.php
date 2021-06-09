@@ -1,7 +1,7 @@
 <?php session_start(); 
 
     try{
-        $bdd = new PDO('mysql:host=localhost;dbname=mytodolist;','root','');
+        $bdd = new PDO('mysql:host=localhost;dbname=mytodolist;','root','root');
     }
     catch (Exception $e){
         die('Erreur : ' . $e->getMessage());
@@ -28,7 +28,7 @@
   
   <ul id="myUL">
     <?php
-        $bdd = new PDO('mysql:host=localhost;dbname=mytodolist;','root','');
+        $bdd = new PDO('mysql:host=localhost;dbname=mytodolist;','root','root');
         $requete = "SELECT * FROM task";
         $resultat = $bdd->query($requete);
 

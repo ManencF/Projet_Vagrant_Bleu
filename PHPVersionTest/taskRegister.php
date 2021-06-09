@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-$bdd = new PDO('mysql:host=localhost;dbname=mytodolist;','root','');
+$bdd = new PDO('mysql:host=localhost;dbname=mytodolist;','root','root');
 
 if(isset($_POST['mytitle2']))
 {

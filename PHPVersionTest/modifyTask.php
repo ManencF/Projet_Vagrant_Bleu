@@ -1,6 +1,6 @@
 <?php session_start(); 
 
-$bdd = new PDO('mysql:host=localhost;dbname=mytodolist;','root','');
+$bdd = new PDO('mysql:host=localhost;dbname=mytodolist;','root','root');
 
 $id = $_GET['idTask'];
 $titre = $_GET['title'];
